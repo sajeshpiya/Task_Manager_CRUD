@@ -4,7 +4,7 @@ const mongoose = require('./database/mongoose');
 
 
 /*
-CORS - Cross Origin Request Security.
+CORS - Cross Origin Request Security.  
 localhost:3000 - backend api
 localhost:4200 -frontend
  */
@@ -64,7 +64,7 @@ localhost:4200 -frontend
  });
 
  /* http://loccalhost:3000/lists/:listId/tasks/:taskId */
-
+ 
   /* TASKS CRUD */
 
  app.get('/lists/:listId/tasks', (req, res) => {
